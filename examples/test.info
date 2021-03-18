@@ -1,0 +1,14 @@
+# example runcard for bbhFONLL :
+# !! any parameter that is not set explicitly is called
+#    to its default value.
+
+order_5f    : 2 
+order_fonll : 2 # select 1 for fonll-A (LL matching)
+mur         : 125.
+muf         : 125.
+mh          : 125.
+mb          : 4.58
+sqrts       : 13000.
+iter        : 100000
+pdf_set     : 'NNPDF30_nnlo_as_0118'
+proc        : 'bbz'
